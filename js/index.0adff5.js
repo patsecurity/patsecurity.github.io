@@ -10,8 +10,8 @@ if(!window.HTMLPictureElement){r();}
 ldsrc('.js7');ldsrcset('.js9 source');wl=new woolite();
 wl.init();
 wl.addAnimation($('.js2')[0], "1.00s", "0.00s", 1, 100);
-wl.addAnimation($('.js3')[0], "1.00s", "1.00s", 1, 22);
-wl.addAnimation($('.js4')[0], "1.00s", "2.00s", 1, 100);
+wl.addAnimation($('.js3')[0], "3.00s", "2.00s", 1, 22);
+wl.addAnimation($('.js4')[0], "2.00s", "5.00s", 1, 100);
 wl.addAnimation($('.js5')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js8')[0], "1.00s", "0.00s", 1, 0);
 wl.start();
