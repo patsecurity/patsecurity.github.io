@@ -9,7 +9,7 @@ if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
 ldsrc('.js3');ldsrcset('.js5 source');wl=new woolite();
 wl.init();
-wl.addAnimation($('.js4')[0], "1.00s", "0.00s", 1, 100);
+wl.addAnimation($('.js4')[0], "1.00s", "0.00s", 1, 10);
 wl.start();
 
 });
