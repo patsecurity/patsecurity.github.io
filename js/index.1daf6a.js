@@ -13,7 +13,7 @@ wl.addAnimation($('.js2')[0], "1.00s", "0.00s", 1, 100);
 wl.addAnimation($('.js3')[0], "3.00s", "2.00s", 1, 22);
 wl.addAnimation($('.js4')[0], "2.00s", "5.00s", 1, 100);
 wl.addAnimation($('.js5')[0], "1.00s", "0.00s", 1, 100);
-wl.addAnimation($('.js6')[0], "3.00s", "2.00s", 1, 22);
+wl.addAnimation($('.js6')[0], "4.00s", "4.00s", 1, 22);
 wl.addAnimation($('.js9')[0], "1.00s", "0.00s", 1, 0);
 wl.start();
 
