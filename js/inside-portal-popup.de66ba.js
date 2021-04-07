@@ -5,8 +5,9 @@ ldsrcset=function(t){var e,r=document.querySelectorAll(t);for(e=0;e<r.length;e++
 
 $(function(){
 r=function(){dpi=window.devicePixelRatio;var a='data-src';var e=document.querySelector('.js14');if(e.hasAttribute('src')){a='src';}e.setAttribute(a,(dpi>1)?'images/img_8607-600.jpeg':'images/img_8607-300.jpeg');
+
 };
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(i,e){$(e).click(function(){var t=e.hash.length>1?$('[name="'+e.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
-setTimeout(function(){sparklePopup.openPopup('popup4');},4000);ldsrc('.js14');ldsrcset('.js15 source');
+setTimeout(function(){sparklePopup.openPopup('popup4');},4000);ldsrc('.js14');ldsrcset('.js16 source');
 });
